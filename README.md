@@ -1,8 +1,8 @@
 
-# Proje Adı
+# RuhsatPro
 
 ## Açıklama
-Projenizin ne yaptığını ve amacını kısaca açıklayın.
+
 
 ## İçindekiler
 - [Kurulum](#kurulum)
@@ -12,3 +12,5 @@ Projenizin ne yaptığını ve amacını kısaca açıklayın.
 - [İletişim](#iletişim)
 
 ## Kurulum
+#sample.ifc dosyası
+Bu dosyada
