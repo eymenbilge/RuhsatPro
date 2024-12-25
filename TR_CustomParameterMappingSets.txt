@@ -46,7 +46,7 @@ PropertySet:	Pset_BagimsizBolum	I	IfcSpace
 PropertySet:	Pset_EmsalAlanTipi	I	IfcSpace
 	EmsalAlanTipi	Text	ECB_EmsalAlanTipi	
 				
-PropertySet:	Pset_MahalNetAlanTipi	I	IfcSpace
+PropertySet:	Pset_NetAlanTipi	I	IfcSpace
 	Eklenti/Degil	Boolean	ECB_Eklenti/Degil
 
 PropertySet:	Pset_ArsaBilgileri	T	IfcSite
