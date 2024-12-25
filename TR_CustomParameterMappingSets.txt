@@ -42,7 +42,9 @@ PropertySet:	Qto_Area	I	IfcSpace
 PropertySet:	Pset_BagimsizBolum	I	IfcSpace
 	BagimsizBolumNo	Text	ECB_BagimsizBolumNo	
 	BlokNo	Text	ECB_BlokNo
-
+	ArsaPayi	Text	ECB_ArsaPayi
+	Cinsi	Text	ECB_Cinsi
+	
 PropertySet:	Pset_EmsalAlanTipi	I	IfcSpace
 	EmsalAlanTipi	Text	ECB_EmsalAlanTipi	
 				
