@@ -155,5 +155,40 @@
         </ids:property>
       </ids:requirements>
     </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2 IFC2X3" name="IfcSite">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSITE</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ArsaBilgileri</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>ArsaAlani</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ArsaBilgileri</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>TAKS</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+        <ids:property cardinality="required">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ArsaBilgileri</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>KAKS</ids:simpleValue>
+          </ids:baseName>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
   </ids:specifications>
 </ids:ids>
