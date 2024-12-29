@@ -39,7 +39,7 @@
         </ids:property>
       </ids:requirements>
     </ids:specification>
-    <ids:specification ifcVersion="IFC4X3_ADD2 IFC2X3" name="BrütAlan_BagimsizBolum">
+    <ids:specification ifcVersion="IFC4X3_ADD2 IFC2X3" name="BrütAlan_BagimsizBolum_EklentiAlan">
       <ids:applicability minOccurs="1" maxOccurs="unbounded">
         <ids:entity>
           <ids:name>
@@ -109,6 +109,12 @@
           <ids:baseName>
             <ids:simpleValue>EmsalAlanTipi</ids:simpleValue>
           </ids:baseName>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="30/70 KAPSAMINDA EMSAL DIŞI ALAN" />
+              <xs:enumeration value="DOĞRUDAN EMSAL DIŞI ALAN" />
+            </xs:restriction>
+          </ids:value>
         </ids:property>
       </ids:requirements>
     </ids:specification>
@@ -188,6 +194,37 @@
             <ids:simpleValue>KAKS</ids:simpleValue>
           </ids:baseName>
         </ids:property>
+      </ids:requirements>
+    </ids:specification>
+    <ids:specification ifcVersion="IFC4X3_ADD2 IFC2X3" name="BrütAlan_BagimsizBolum">
+      <ids:applicability minOccurs="1" maxOccurs="unbounded">
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCSPACE</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+        <ids:attribute>
+          <ids:name>
+            <ids:simpleValue>ObjectType</ids:simpleValue>
+          </ids:name>
+          <ids:value>
+            <ids:simpleValue>Brüt Alan</ids:simpleValue>
+          </ids:value>
+        </ids:attribute>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:attribute cardinality="required">
+          <ids:name>
+            <ids:simpleValue>LongName</ids:simpleValue>
+          </ids:name>
+          <ids:value>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="BAĞIMSIZ BÖLÜM" />
+              <xs:enumeration value="EKLENTİ ALAN" />
+              <xs:enumeration value="ORTAK ALAN" />
+            </xs:restriction>
+          </ids:value>
+        </ids:attribute>
       </ids:requirements>
     </ids:specification>
   </ids:specifications>
