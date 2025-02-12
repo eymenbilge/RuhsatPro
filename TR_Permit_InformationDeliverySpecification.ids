@@ -1,7 +1,8 @@
 <ids:ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd" xmlns:ids="http://standards.buildingsmart.org/IDS">
-  <!--edited with usBIM.IDSeditor 2.2.29.0 (http://www.accasoftware.com)-->
+  <!--edited with usBIM.IDSeditor 2.3.4.0 (http://www.accasoftware.com)-->
   <ids:info>
-    <ids:title>New ids file</ids:title>
+    <ids:title>RuhsatPro örnek IDS</ids:title>
+    <ids:author>eymen@ecbarch.com</ids:author>
   </ids:info>
   <ids:specifications>
     <ids:specification ifcVersion="IFC2X3 IFC4X3_ADD2" name="NetAlan_BagimsizBolum">
@@ -111,8 +112,8 @@
           </ids:baseName>
           <ids:value>
             <xs:restriction base="xs:string">
-              <xs:enumeration value="30/70 KAPSAMINDA EMSAL DIŞI ALAN" />
-              <xs:enumeration value="DOĞRUDAN EMSAL DIŞI ALAN" />
+              <xs:enumeration value="%30 KAPSAMINDA EMSAL DIŞI" />
+              <xs:enumeration value="DOĞRUDAN EMSAL DIŞI" />
             </xs:restriction>
           </ids:value>
         </ids:property>
@@ -149,14 +150,6 @@
           </ids:propertySet>
           <ids:baseName>
             <ids:simpleValue>BagimsizBolumNo</ids:simpleValue>
-          </ids:baseName>
-        </ids:property>
-        <ids:property cardinality="prohibited">
-          <ids:propertySet>
-            <ids:simpleValue>Pset_BagimsizBolum</ids:simpleValue>
-          </ids:propertySet>
-          <ids:baseName>
-            <ids:simpleValue>BlokNo</ids:simpleValue>
           </ids:baseName>
         </ids:property>
       </ids:requirements>
